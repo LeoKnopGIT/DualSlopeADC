@@ -1,0 +1,104 @@
+# LT-Spice-spezifische Datein
+*.raw
+*.log
+*.net
+*.bak
+
+# KiCad temporäre Dateien
+*.bak
+*.autosave-*
+*.log
+*.tmp
+*.zip
+
+# Generierte Fertigungsdaten
+*.gbr
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.drl
+*.pos
+
+# Netzlisten und Simulationsdateien
+*.net
+*.xml
+*.spice
+*.plt
+*.step
+*.stp
+
+# KiCad spezifische Cache/Verlaufsdateien
+*.kicad_prl
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Backup files
+*~ 
+*.bak
+
