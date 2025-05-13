@@ -101,4 +101,17 @@ dmypy.json
 # Backup files
 *~ 
 *.bak
-
+#ch32fun
+.pio
+.vscode
+.idea
+*.elf
+*.hex
+*.lst
+*.bin
+*.map
+minichlink/minichlink
+minichlink/minichlink.so
+compile_commands.json
+.cache
+ch32fun/generated_*.ld
