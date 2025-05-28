@@ -3167,6 +3167,12 @@
 		)
 	)
 	(junction
+		(at 31.75 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16324d0a-12f8-4f92-af8c-ec53254d857c")
+	)
+	(junction
 		(at 162.56 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3185,10 +3191,22 @@
 		(uuid "7a8639f6-1047-4ee7-a211-e5af2ab48ff4")
 	)
 	(junction
+		(at 31.75 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be8002c-397e-4b26-b45f-86c9b0372695")
+	)
+	(junction
 		(at 257.81 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dcf0b53-b31b-4fc8-8213-dc9c38dc9b5f")
+	)
+	(junction
+		(at 100.33 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be8ed68b-bf0b-4e8f-978f-dd9bd6dd8323")
 	)
 	(junction
 		(at 232.41 46.99)
@@ -3234,7 +3252,7 @@
 	)
 	(no_connect
 		(at 80.01 182.88)
-		(uuid "aa5360a8-f95e-46d1-b7b0-426a83328e0e")
+		(uuid "6d16192f-caaa-49e6-ac72-d54ca8098fc5")
 	)
 	(wire
 		(pts
@@ -3255,6 +3273,16 @@
 			(type default)
 		)
 		(uuid "0413d449-29fc-4549-a895-978a815a6b8c")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bfddfa-bc98-4c8d-bd4f-bb3efcc998d9")
 	)
 	(wire
 		(pts
@@ -3328,16 +3356,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cfe3fbf-12b9-47b1-a419-9e3f06559ab2")
-	)
-	(wire
-		(pts
 			(xy 48.26 132.08) (xy 26.67 132.08)
 		)
 		(stroke
@@ -3348,23 +3366,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 69.85 38.1)
+			(xy 36.83 90.17) (xy 36.83 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36b39afe-a1f7-4519-b7d0-db5b6cc79f54")
-	)
-	(wire
-		(pts
-			(xy 60.96 45.72) (xy 69.85 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b88e674-bf91-4b96-a597-3498afedbc80")
+		(uuid "34358fed-7994-4c56-8b63-ca15fcf5cab4")
 	)
 	(wire
 		(pts
@@ -3398,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5898f3d6-aac5-41b2-bb40-43c74668542f")
+	)
+	(wire
+		(pts
 			(xy 26.67 52.07) (xy 31.75 52.07)
 		)
 		(stroke
@@ -3405,16 +3423,6 @@
 			(type default)
 		)
 		(uuid "5caa978e-3caa-4b7f-8f1f-dae5ad74825f")
-	)
-	(wire
-		(pts
-			(xy 77.47 35.56) (xy 78.74 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b86bcb-2701-474e-bce1-35b1fbe789c2")
 	)
 	(wire
 		(pts
@@ -3468,6 +3476,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 85.09) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e17106-69dc-42ad-bf1c-fd0cbe67335c")
+	)
+	(wire
+		(pts
 			(xy 165.1 74.93) (xy 165.1 73.66)
 		)
 		(stroke
@@ -3508,13 +3526,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 43.18) (xy 78.74 43.18)
+			(xy 99.06 55.88) (xy 100.33 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dfef1ed-fdce-46d1-8997-07f896814437")
+		(uuid "81586b72-54fb-45c7-9422-1b0c8a694f9d")
 	)
 	(wire
 		(pts
@@ -3528,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 57.15) (xy 100.33 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e359176-f2fb-4cc2-929b-7fc4cd0eaa78")
+	)
+	(wire
+		(pts
 			(xy 162.56 73.66) (xy 165.1 73.66)
 		)
 		(stroke
@@ -3535,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "940f22e1-befc-4bde-a662-1d014f031a2f")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 36.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956760d2-d18e-4879-86b6-aaf051842aec")
 	)
 	(wire
 		(pts
@@ -3548,23 +3586,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 38.1) (xy 78.74 38.1)
+			(xy 115.57 43.18) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8aca704-eaac-4685-ad43-f580c18dd359")
-	)
-	(wire
-		(pts
-			(xy 60.96 43.18) (xy 69.85 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9efe490-2373-4c00-adb1-d9080ad3f7f7")
+		(uuid "a806e81a-9f21-4cec-8bcd-ea35ef6c5823")
 	)
 	(wire
 		(pts
@@ -3588,13 +3616,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 45.72) (xy 78.74 45.72)
+			(xy 62.23 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b294140f-ab32-469b-a7fd-7aaf1c170b9d")
+		(uuid "b5d48653-7c47-4d54-afba-cf51708c1009")
 	)
 	(wire
 		(pts
@@ -3628,6 +3656,36 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94099b9-8a1b-4757-87b3-a5dd24eaaad1")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb988068-6498-45a7-b630-b07228739847")
+	)
+	(wire
+		(pts
+			(xy 62.23 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce67725d-2b0b-424c-892e-a0e1ea1739a9")
+	)
+	(wire
+		(pts
 			(xy 48.26 132.08) (xy 66.04 132.08)
 		)
 		(stroke
@@ -3648,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 85.09) (xy 36.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71f6507-d3b6-49b1-845d-d8c932dae270")
+	)
+	(wire
+		(pts
 			(xy 165.1 100.33) (xy 165.1 101.6)
 		)
 		(stroke
@@ -3655,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "d7c5d9da-ccd8-4f60-8b78-efc90a0221f4")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 36.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da388e52-d235-40e6-a72d-9f9973f2d0f7")
 	)
 	(wire
 		(pts
@@ -3698,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 44.45) (xy 275.59 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae61df7-6cf5-441b-8b95-9c3377d89065")
+	)
+	(wire
+		(pts
 			(xy 26.67 35.56) (xy 31.75 35.56)
 		)
 		(stroke
@@ -3718,6 +3806,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 82.55) (xy 41.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cdcfa2-7137-4b33-8f3e-0e1102aefc47")
+	)
+	(wire
+		(pts
 			(xy 25.4 19.05) (xy 31.75 19.05)
 		)
 		(stroke
@@ -3726,25 +3824,73 @@
 		)
 		(uuid "fd25f7ef-c24b-4030-abe0-54b0640d744d")
 	)
-	(label "GPIO_Control"
-		(at 163.83 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0006cc4b-2a10-4f5c-bd78-18a70f42bae0")
+		(property "Reference" "#PWR043"
+			(at 82.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "35e4956e-0bd6-48eb-afb3-78fbdb593642")
-	)
-	(label "GPIO_Input"
-		(at 267.97 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "DIG_E"
+			(at 74.93 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "463bcb89-d07a-4f6c-8be7-9aec6431312f")
+		(property "Footprint" ""
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d174a77-a7c5-4338-9ca1-875f37f2928b")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -4145,7 +4291,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 43.18 90)
+		(at 62.23 35.56 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4154,7 +4301,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a343446-dcdc-4f2b-9e6b-c5dfda8f98e0")
 		(property "Reference" "#PWR032"
-			(at 64.77 43.18 0)
+			(at 66.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4310,7 @@
 			)
 		)
 		(property "Value" "DIG_8"
-			(at 57.15 43.1799 90)
+			(at 58.42 35.5601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 43.18 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 43.18 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 43.18 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4560,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 38.1 90)
+		(at 62.23 38.1 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4422,7 +4570,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b83247f-7ebc-448b-8bc7-75678e440117")
 		(property "Reference" "#PWR031"
-			(at 64.77 38.1 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4579,7 @@
 			)
 		)
 		(property "Value" "DIG_9"
-			(at 57.15 38.0999 90)
+			(at 58.42 38.1001 90)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -4441,7 +4589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 38.1 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 38.1 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 38.1 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,6 +4787,74 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 163.83 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36972fdb-2faa-424e-ad16-e45dd122dd60")
+		(property "Reference" "#PWR056"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADC_Control"
+			(at 167.64 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688dbac4-d0ca-4378-85a2-bcfb06fd0ecf")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 195.58 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4771,7 +4987,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 35.56 90)
+		(at 62.23 45.72 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4780,7 +4997,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bb0d82b-95c0-4ac6-9b73-b139b9d2a6e5")
 		(property "Reference" "#PWR018"
-			(at 64.77 35.56 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +5006,7 @@
 			)
 		)
 		(property "Value" "DIG_12"
-			(at 57.15 35.5599 90)
+			(at 58.42 45.7201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +5015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 35.56 0)
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 35.56 0)
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +5033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 35.56 0)
+			(at 62.23 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,6 +5322,74 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 33.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce8cfac-75ca-43ac-b02f-a06793f1c4a0")
+		(property "Reference" "#PWR055"
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADC_Control"
+			(at 102.8023 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d20767d9-da54-4bd7-b5e7-fff96d41d2a6")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5600,8 +5885,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 275.59 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eb6c89b-bc79-489c-ae48-88a7a4ca42cd")
+		(property "Reference" "#PWR046"
+			(at 275.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "COMP_OUT"
+			(at 271.018 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 275.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f3bc755-d203-4230-883a-bde68dfda47b")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 73.66 35.56 270)
+		(at 74.93 45.72 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5609,25 +5960,27 @@
 		(dnp no)
 		(uuid "5fb48a3d-5c8c-4263-be8b-33c25359eeef")
 		(property "Reference" "R4"
-			(at 72.39 34.036 0)
+			(at 73.66 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "330"
-			(at 74.93 34.036 0)
+			(at 76.2 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 33.782 90)
+			(at 74.93 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 35.56 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 35.56 0)
+			(at 74.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +6023,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 45.72 90)
+		(at 115.57 43.18 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5679,7 +6033,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbd91cf-4461-411d-b0b6-b34c0bb29b76")
 		(property "Reference" "#PWR033"
-			(at 64.77 45.72 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6042,7 @@
 			)
 		)
 		(property "Value" "DIG_6"
-			(at 57.15 45.7199 90)
+			(at 119.38 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +6051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 45.72 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +6060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 45.72 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +6069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 45.72 0)
+			(at 115.57 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +6091,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 45.72 270)
+		(at 102.87 43.18 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5745,25 +6100,27 @@
 		(dnp no)
 		(uuid "64a83d70-3bc0-4fb9-bb7b-e0f5e7286e24")
 		(property "Reference" "R7"
-			(at 72.39 44.196 0)
+			(at 104.14 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "330"
-			(at 74.93 44.196 0)
+			(at 101.6 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 43.942 90)
+			(at 102.87 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 45.72 0)
+			(at 102.87 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +6138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 45.72 0)
+			(at 102.87 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,8 +6295,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74b446b6-c200-417d-9744-653365948ebf")
+		(property "Reference" "#PWR042"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_D"
+			(at 74.93 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c55cda-db37-46db-ae9f-9b2ad15327ea")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 73.66 43.18 270)
+		(at 74.93 35.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5947,25 +6373,27 @@
 		(dnp no)
 		(uuid "7dca2c51-c51d-46b8-bd16-52f7945f7f28")
 		(property "Reference" "R6"
-			(at 72.39 41.656 0)
+			(at 73.66 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "330"
-			(at 74.93 41.656 0)
+			(at 76.2 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 41.402 90)
+			(at 74.93 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +6402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 43.18 0)
+			(at 74.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 43.18 0)
+			(at 74.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,6 +6840,74 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 78.74 40.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88c8fa5f-9932-4e2b-8803-20e861ec83a1")
+		(property "Reference" "#PWR044"
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_F"
+			(at 74.93 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fed7d175-2cd5-40bc-8452-77193ae8765b")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 252.73 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6477,6 +6973,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 38.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a7ae005-571b-4bec-a4b2-8b044c09c01d")
+		(property "Reference" "#PWR041"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_C"
+			(at 102.87 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133ee394-7366-4726-a452-0d4a7a14e924")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:CA56-12EWA")
 		(at 107.95 172.72 0)
 		(unit 1)
@@ -6502,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Display_7Segment:CA56-12EWA"
+		(property "Footprint" "3461BS_4Digit_7SegDisplay:3461BS_4Digit_7SegDisplay"
 			(at 107.95 187.96 0)
 			(effects
 				(font
@@ -6726,6 +7290,74 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 80.01 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9863891a-84d0-4170-bd3b-48dd204c8b26")
+		(property "Reference" "#PWR049"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_C"
+			(at 76.2 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cde411-450f-4a44-8bac-247980f62a85")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 135.89 182.88 270)
 		(mirror x)
 		(unit 1)
@@ -6927,6 +7559,74 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 80.01 180.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d01455-e77c-4a39-afe6-41b30794bb98")
+		(property "Reference" "#PWR053"
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_G"
+			(at 76.2 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237f5804-37e9-4bfb-800e-f09723242e77")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6993,6 +7693,74 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 80.01 167.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abac8867-1a61-4edd-8929-299762c05f5d")
+		(property "Reference" "#PWR048"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_B"
+			(at 76.2 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c522b604-880c-41f9-9fad-b3c0438f0ae6")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 156.21 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7051,6 +7819,74 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 177.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7cc1f88-7256-4c22-89f4-c8d37cb51075")
+		(property "Reference" "#PWR052"
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_F"
+			(at 76.2 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa9b1e3-7ac2-479d-8b0f-1c74c5b7076c")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7314,7 +8150,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 38.1 270)
+		(at 74.93 38.1 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7322,25 +8159,27 @@
 		(dnp no)
 		(uuid "c61fe071-941f-411d-b1b8-67f16833d7b8")
 		(property "Reference" "R5"
-			(at 72.39 36.576 0)
+			(at 73.66 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "330"
-			(at 74.93 36.576 0)
+			(at 76.2 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 36.322 90)
+			(at 74.93 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +8188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 38.1 0)
+			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +8197,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 38.1 0)
+			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,6 +8311,142 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 78.74 33.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c79a45e8-7d21-4406-ab99-fa7f25c3f124")
+		(property "Reference" "#PWR040"
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_B"
+			(at 74.93 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56f5bc6b-346c-43c7-99c8-a9efe1893124")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ebf91a-1851-42a5-87c2-579344a29c34")
+		(property "Reference" "#PWR039"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_A"
+			(at 74.93 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c7d9bd-ed35-47a5-a6b1-e65f131eab14")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 135.89 180.34 270)
 		(mirror x)
 		(unit 1)
@@ -7533,6 +8508,74 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 172.72 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14fe8bf-b2c6-48af-ba50-9eb142fc85df")
+		(property "Reference" "#PWR050"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_D"
+			(at 76.2 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43b88618-1f90-4080-980b-d7d2185293ab")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7675,6 +8718,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 175.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3fa81cf-59f1-42df-8e0d-a94c84b0f002")
+		(property "Reference" "#PWR051"
+			(at 83.82 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_E"
+			(at 76.2 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a6b7efd-3d55-4c97-99b3-15428688be8a")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 102.87 0)
 		(unit 1)
@@ -7802,6 +8913,76 @@
 			(project ""
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eba45d0e-0bde-4a6a-8cae-880fa9c4df66")
+		(property "Reference" "C4"
+			(at 45.72 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 45.72 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 40.9448 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9675cf39-d5bf-4083-851a-ee7daf5a681d")
+		)
+		(pin "1"
+			(uuid "d306ba3c-2d4f-46fd-b644-2da710053b6a")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8010,6 +9191,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 165.1 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ba7904-8da7-4780-a34a-21cfb53aad4b")
+		(property "Reference" "#PWR047"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_A"
+			(at 76.2 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3d4ec2-7c93-4bcf-9d47-8fc19204f625")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c26aa5-7c51-4b41-96e5-14f221931cb6")
+		(property "Reference" "#PWR045"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DIG_G"
+			(at 102.87 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ef36bc-180f-478b-a3ac-07ab06e3ca1c")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 26.67 124.46 0)
 		(unit 1)
@@ -8141,6 +9458,71 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 102.87 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc736bc-bd4f-4beb-bb15-b8f044e31faa")
+		(property "Reference" "#PWR054"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "COMP_OUT"
+			(at 108.966 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5ff3df-8bc2-453e-a5ca-4e9acbd1d8f0")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
