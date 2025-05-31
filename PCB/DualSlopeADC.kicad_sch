@@ -293,6 +293,260 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:AD8656"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AD8656"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Low Noise, Precision CMOS Amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD8656_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AD8656_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AD8656_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Analog_Switch:ADG419BRM"
 			(pin_names
 				(offset 0.254)
@@ -3173,22 +3427,28 @@
 		(uuid "16324d0a-12f8-4f92-af8c-ec53254d857c")
 	)
 	(junction
-		(at 162.56 101.6)
+		(at 234.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2815a1d1-d0c7-48a4-98b7-b550271884ee")
+	)
+	(junction
+		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3813c4b8-a712-4c50-87e4-faade2f85159")
-	)
-	(junction
-		(at 138.43 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ed4fcce-fe14-44bc-bffe-2ec5d3c872c5")
 	)
 	(junction
 		(at 48.26 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd8eab2-807b-4801-97f4-f7beec38db14")
+	)
+	(junction
+		(at 220.98 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79dc222a-92fd-4e50-8e7f-9d6e9fd241c3")
 	)
 	(junction
 		(at 143.51 49.53)
@@ -3233,7 +3493,7 @@
 		(uuid "f1e89691-7dde-4f82-b035-fc0e341b3482")
 	)
 	(junction
-		(at 162.56 73.66)
+		(at 152.4 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66fc1d4-fa84-4033-8a1f-00f44d99c575")
@@ -3251,8 +3511,20 @@
 		(uuid "fd2fd283-c348-4b6e-8e0f-15198344f6ef")
 	)
 	(no_connect
+		(at 137.16 95.25)
+		(uuid "359cb520-9c9f-48a0-a4f1-1f263864497a")
+	)
+	(no_connect
 		(at 80.01 182.88)
 		(uuid "6d16192f-caaa-49e6-ac72-d54ca8098fc5")
+	)
+	(no_connect
+		(at 121.92 92.71)
+		(uuid "7d5142c5-6c64-4f24-ae99-6a69da8ccb79")
+	)
+	(no_connect
+		(at 121.92 97.79)
+		(uuid "d4c650f1-40e9-4877-8f22-2da819403d50")
 	)
 	(wire
 		(pts
@@ -3266,23 +3538,53 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 80.01) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ead5ea-c396-4bb3-b483-a4575781e226")
+	)
+	(wire
+		(pts
 			(xy 26.67 38.1) (xy 31.75 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0413d449-29fc-4549-a895-978a815a6b8c")
+		(uuid "06b9439c-f9ff-4616-afd1-8976c9cd6651")
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 138.43 58.42)
+			(xy 234.95 95.25) (xy 247.65 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f89a94f-f4e0-4742-94b8-1901323029c9")
+		(uuid "0993c537-5536-4b32-8d2d-d6685f022fca")
+	)
+	(wire
+		(pts
+			(xy 234.95 95.25) (xy 234.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baf9581-db67-4899-b279-827405a5f24e")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3ed278-dd58-486e-b75f-3e2db2f8dcc5")
 	)
 	(wire
 		(pts
@@ -3296,13 +3598,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 101.6)
+			(xy 152.4 105.41) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "117105a0-abc9-430b-a416-0490cf9ed153")
+	)
+	(wire
+		(pts
+			(xy 194.31 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1214f8a1-e821-472f-9532-df3c5ff7e0db")
 	)
 	(wire
 		(pts
@@ -3313,6 +3625,16 @@
 			(type default)
 		)
 		(uuid "13b48b26-7646-4dc6-a2e0-43e1d557a563")
+	)
+	(wire
+		(pts
+			(xy 220.98 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168a17d2-1851-4267-a392-f60e3ed50ccb")
 	)
 	(wire
 		(pts
@@ -3336,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 162.56 102.87)
+			(xy 152.4 106.68) (xy 152.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 49.53) (xy 138.43 49.53)
+			(xy 138.43 49.53) (xy 143.51 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3356,13 +3678,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 143.51 49.53)
+			(xy 247.65 95.25) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f347f32-2164-4368-bda3-120894269c4d")
+		(uuid "211978be-5b01-4a52-896a-42db0b2bc9da")
 	)
 	(wire
 		(pts
@@ -3386,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 35.56) (xy 31.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36936b3e-8d5c-414b-bc6a-6f0dcf448eab")
+	)
+	(wire
+		(pts
 			(xy 179.07 52.07) (xy 180.34 52.07)
 		)
 		(stroke
@@ -3406,6 +3738,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492a18a7-3eff-43c2-b07b-15d9ce0b2370")
+	)
+	(wire
+		(pts
 			(xy 26.67 71.12) (xy 31.75 71.12)
 		)
 		(stroke
@@ -3413,6 +3755,16 @@
 			(type default)
 		)
 		(uuid "56bc8835-17a8-438e-9dbf-1570f237e9f6")
+	)
+	(wire
+		(pts
+			(xy 234.95 77.47) (xy 234.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5751fa8f-adb3-4fab-b520-5fab9f333955")
 	)
 	(wire
 		(pts
@@ -3466,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 74.93)
+			(xy 152.4 78.74) (xy 152.4 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 74.93) (xy 165.1 73.66)
+			(xy 154.94 80.01) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 124.46) (xy 59.69 124.46)
+			(xy 58.42 124.46) (xy 66.04 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +3908,37 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 165.1 73.66)
+			(xy 201.93 82.55) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b82cd9-d8d9-41f9-941d-32368bb34c84")
+	)
+	(wire
+		(pts
+			(xy 220.98 95.25) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f350ee-38c7-4b52-8077-cdc501a6d9fa")
+	)
+	(wire
+		(pts
+			(xy 201.93 92.71) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aec54a0-2635-4580-8ead-9317d9512a42")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3616,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 82.55) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5394b69-541e-4126-be9a-0320eade0045")
+	)
+	(wire
+		(pts
 			(xy 62.23 38.1) (xy 71.12 38.1)
 		)
 		(stroke
@@ -3626,23 +4018,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 49.53) (xy 148.59 49.53)
+			(xy 143.51 49.53) (xy 156.21 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bafae687-ec2e-484c-9d6d-fb0800c9a351")
-	)
-	(wire
-		(pts
-			(xy 99.06 58.42) (xy 127 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa7d904-7e28-42b1-96c6-406d4e5278cf")
 	)
 	(wire
 		(pts
@@ -3656,16 +4038,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 124.46) (xy 66.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d56768-a94a-4e36-a263-f2ee26e562bb")
-	)
-	(wire
-		(pts
 			(xy 62.23 45.72) (xy 71.12 45.72)
 		)
 		(stroke
@@ -3673,6 +4045,16 @@
 			(type default)
 		)
 		(uuid "ce67725d-2b0b-424c-892e-a0e1ea1739a9")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef3555d-4f6a-441b-b97b-6f72e1b94c05")
 	)
 	(wire
 		(pts
@@ -3706,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 165.1 101.6)
+			(xy 154.94 105.41) (xy 154.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3736,16 +4118,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 49.53) (xy 156.21 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de64bfb9-3d32-4d6e-8e46-ce1a21fffff8")
-	)
-	(wire
-		(pts
 			(xy 26.67 85.09) (xy 31.75 85.09)
 		)
 		(stroke
@@ -3756,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 165.1 101.6)
+			(xy 152.4 106.68) (xy 154.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3773,26 +4145,6 @@
 			(type default)
 		)
 		(uuid "eae61df7-6cf5-441b-8b95-9c3377d89065")
-	)
-	(wire
-		(pts
-			(xy 138.43 58.42) (xy 138.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede33be3-ba4d-4ce5-b6f2-a04b2071deea")
-	)
-	(wire
-		(pts
-			(xy 26.67 35.56) (xy 31.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f309eb37-8538-4e52-87ac-83fc7e026aa4")
 	)
 	(wire
 		(pts
@@ -3894,7 +4246,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 148.59 44.45 90)
+		(at 229.87 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3903,7 +4255,7 @@
 		(dnp no)
 		(uuid "02c213a9-a9cb-4bec-94c8-59c22adb2925")
 		(property "Reference" "J2"
-			(at 143.51 45.085 0)
+			(at 230.505 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +4263,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 148.59 42.164 90)
+			(at 227.584 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +4271,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 148.59 44.45 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +4280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 44.45 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +4289,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 148.59 44.45 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,17 +4445,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 38.1 0)
+		(lib_id "power:VCC")
+		(at 31.75 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0d20c2ae-e566-4a8b-b1a1-2377bcfa9698")
-		(property "Reference" "#PWR011"
-			(at 31.75 44.45 0)
+		(uuid "0cb85883-76fe-4eb2-a43c-4e534d8176f3")
+		(property "Reference" "#PWR063"
+			(at 31.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,8 +4463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 31.75 43.18 0)
+		(property "Value" "SWIO"
+			(at 31.75 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 38.1 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 38.1 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,8 +4489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,12 +4499,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "add2c328-9f51-489f-8fb8-b98e8959ae6a")
+			(uuid "da60c053-d135-4339-a62a-0053be5a0ee6")
 		)
 		(instances
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
-					(reference "#PWR011")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4629,7 +4981,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:ADG419BRM")
-		(at 162.56 87.63 0)
+		(at 152.4 92.71 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4638,7 +4990,7 @@
 		(fields_autoplaced yes)
 		(uuid "30a66a0e-bba7-4988-a683-67dd8193e532")
 		(property "Reference" "U4"
-			(at 170.18 86.3599 0)
+			(at 160.02 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4999,7 @@
 			)
 		)
 		(property "Value" "ADG419BRM"
-			(at 170.18 88.8999 0)
+			(at 160.02 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +5008,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 166.37 102.235 0)
+			(at 156.21 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf"
-			(at 166.37 99.695 0)
+			(at 156.21 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Single SPDT Monolithic LC²MOS Analog Switch, 25Ohm Ron, MSOP-8"
-			(at 162.56 87.63 0)
+			(at 152.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +5273,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 132.08 49.53 0)
+		(at 194.31 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4930,7 +5282,7 @@
 		(fields_autoplaced yes)
 		(uuid "38471e35-e1e0-4ae3-a19a-615bff1eb45b")
 		(property "Reference" "#PWR017"
-			(at 132.08 53.34 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +5291,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 132.08 44.45 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +5299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 49.53 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +5308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 49.53 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 132.08 49.53 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,6 +5400,74 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 21.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e589b73-cfdc-4100-8fe8-df541f157467")
+		(property "Reference" "J9"
+			(at 22.225 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 22.225 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ea999d1-1682-44bd-9314-ab3130cab0bf")
+		)
+		(pin "1"
+			(uuid "87890d5e-027d-4fd6-a0b1-3fcbd9cdc216")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5883,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 31.75 35.56 0)
+		(at 31.75 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5472,7 +5892,7 @@
 		(fields_autoplaced yes)
 		(uuid "587c85d2-416c-466c-8fcf-084ee1e52e9c")
 		(property "Reference" "#PWR010"
-			(at 31.75 39.37 0)
+			(at 31.75 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5901,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3"
-			(at 31.75 30.48 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 35.56 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 35.56 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 35.56 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,74 +5942,6 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 119.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5af0288b-96fe-4978-9d88-14a2b58ce93b")
-		(property "Reference" "J1"
-			(at 54.61 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 59.69 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 59.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4012f47-fdd7-4a29-9479-329b58ee9fd9")
-		)
-		(pin "1"
-			(uuid "00e57444-ee89-40ce-b906-960c94e9b58e")
-		)
-		(instances
-			(project "DualSlopeADC"
-				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6639,74 +6991,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 21.59 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84894ecb-15b1-4844-b57d-107d81d77703")
-		(property "Reference" "J4"
-			(at 22.225 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 22.225 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 21.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 21.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12a2bbbe-6a9c-46f3-9fee-6d09f04e945e")
-		)
-		(pin "1"
-			(uuid "9b4630b0-e321-4e36-885e-2726e9808e39")
-		)
-		(instances
-			(project ""
-				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 195.58 44.45 0)
 		(unit 1)
@@ -7041,6 +7325,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 234.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90cb8135-9f62-46b4-a836-8cd64a814460")
+		(property "Reference" "#PWR060"
+			(at 234.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADC_IN_MC"
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d114e4a-2e5a-42ac-9661-90c923f7bf2d")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:CA56-12EWA")
 		(at 107.95 172.72 0)
 		(unit 1)
@@ -7204,6 +7554,94 @@
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "C6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:AD8656")
+		(at 179.07 90.17 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "963afd38-cc4a-40be-9adc-8d81388f10a2")
+		(property "Reference" "U7"
+			(at 177.8 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AD8656"
+			(at 177.8 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf"
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low Noise, Precision CMOS Amplifier"
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38755e43-bed7-4444-a771-8281f3fb9329")
+		)
+		(pin "7"
+			(uuid "bb509811-364d-46c3-838e-4136f81afb29")
+		)
+		(pin "2"
+			(uuid "d8af6e3c-d03a-4c79-b0f0-8e695474f4f4")
+		)
+		(pin "1"
+			(uuid "ea9aa973-a7cb-46bd-a1e3-5f4a4617aea2")
+		)
+		(pin "5"
+			(uuid "496465d1-4219-4c4f-b28d-d2f68ba29675")
+		)
+		(pin "6"
+			(uuid "2f5dc17b-3342-4f50-aa0d-e9e665db2528")
+		)
+		(pin "8"
+			(uuid "95b04ce5-ff1d-4b05-8bb5-871af44f754d")
+		)
+		(pin "4"
+			(uuid "2cda9144-1167-409f-b262-64470e189330")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -7558,6 +7996,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:AD8656")
+		(at 129.54 95.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f440e9-1de6-47b4-b4f4-6fad9c3ae3e7")
+		(property "Reference" "U7"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8656"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low Noise, Precision CMOS Amplifier"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38755e43-bed7-4444-a771-8281f3fb9328")
+		)
+		(pin "7"
+			(uuid "e23048b6-2e0f-4522-abd1-842671814904")
+		)
+		(pin "2"
+			(uuid "d8af6e3c-d03a-4c79-b0f0-8e695474f4f3")
+		)
+		(pin "1"
+			(uuid "ea9aa973-a7cb-46bd-a1e3-5f4a4617aea1")
+		)
+		(pin "5"
+			(uuid "2410cf1e-cb23-472c-b631-2049a4ab4dcf")
+		)
+		(pin "6"
+			(uuid "cb2cd302-7a35-4401-ade7-f8eda635482e")
+		)
+		(pin "8"
+			(uuid "f5f3a846-6e99-47de-b9b1-722af71f6df7")
+		)
+		(pin "4"
+			(uuid "13930267-b894-4e1f-bd96-66a241f8c587")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 80.01 180.34 90)
 		(mirror x)
@@ -7627,7 +8151,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 162.56 73.66 0)
+		(at 152.4 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7636,7 +8160,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d15330-3a89-4fc9-bb0f-fdbfe733bad6")
 		(property "Reference" "#PWR023"
-			(at 162.56 77.47 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +8169,7 @@
 			)
 		)
 		(property "Value" "VCC_5V"
-			(at 162.56 68.58 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +8177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 73.66 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +8186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +8195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 162.56 73.66 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,6 +8343,72 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 247.65 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a66d4d-ed1b-4ddb-836f-aff71c54aab0")
+		(property "Reference" "#PWR059"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADC_IN_EXT"
+			(at 247.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90761cb1-b4c3-4835-83b9-c0fc685c794c")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8310,6 +8900,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:AD8656")
+		(at 213.36 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76eccc9-2422-438b-9939-b85a2e41dce1")
+		(property "Reference" "U7"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8656"
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf"
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low Noise, Precision CMOS Amplifier"
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5f6a46b3-6126-4bdd-9bca-17e6675d302e")
+		)
+		(pin "7"
+			(uuid "bb509811-364d-46c3-838e-4136f81afb2a")
+		)
+		(pin "2"
+			(uuid "326819d3-f4b1-491b-9024-94412a92f84c")
+		)
+		(pin "1"
+			(uuid "0c5547ae-7401-48a9-b664-45c3d065e57f")
+		)
+		(pin "5"
+			(uuid "496465d1-4219-4c4f-b28d-d2f68ba29676")
+		)
+		(pin "6"
+			(uuid "2f5dc17b-3342-4f50-aa0d-e9e665db2529")
+		)
+		(pin "8"
+			(uuid "f5f3a846-6e99-47de-b9b1-722af71f6df9")
+		)
+		(pin "4"
+			(uuid "13930267-b894-4e1f-bd96-66a241f8c589")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 78.74 33.02 90)
 		(mirror x)
@@ -8515,7 +9191,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 129.54 63.5 270)
+		(at 242.57 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8524,7 +9200,7 @@
 		(dnp no)
 		(uuid "cd9779cc-f3b0-451a-9faf-837cd4e23951")
 		(property "Reference" "J8"
-			(at 134.62 62.865 0)
+			(at 243.205 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +9208,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 129.54 65.786 90)
+			(at 240.284 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +9216,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 129.54 63.5 0)
+			(at 242.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +9225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 63.5 0)
+			(at 242.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +9234,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 129.54 63.5 0)
+			(at 242.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,6 +9252,72 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 176.53 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec5cb1a-b334-4f7d-aa69-3061ef86489a")
+		(property "Reference" "#PWR057"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_5V"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f05fbce-bdfb-4a23-b8a4-0abea9f567a8")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8854,17 +9596,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 102.87 0)
+		(lib_id "power:VCC")
+		(at 138.43 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8071df2-17c7-4304-8739-ecc366eacf28")
-		(property "Reference" "#PWR02"
-			(at 162.56 109.22 0)
+		(uuid "d46106e3-ce14-44a9-8277-442740039057")
+		(property "Reference" "#PWR062"
+			(at 138.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,8 +9614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 162.56 107.95 0)
+		(property "Value" "ADC_IN_EXT"
+			(at 138.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +9623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 102.87 0)
+			(at 138.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9632,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 102.87 0)
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e95484b5-065c-4591-b455-afb480587152")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8071df2-17c7-4304-8739-ecc366eacf28")
+		(property "Reference" "#PWR02"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +9707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 102.87 0)
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,6 +9722,73 @@
 			(project ""
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 102.87 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1652196-7bc7-498f-a6fb-923f7aa1d117")
+		(property "Reference" "#PWR061"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADC_IN_MC"
+			(at 106.68 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a76ab70-6b33-4cb6-945b-829652b7c8d7")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9119,6 +9994,72 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf18f6b-b27b-4e54-ba0e-c55e04324512")
+		(property "Reference" "#PWR058"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287691c2-9ae3-4006-9192-cfd0bf1799f3")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
