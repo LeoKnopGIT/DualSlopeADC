@@ -3427,6 +3427,12 @@
 		(uuid "16324d0a-12f8-4f92-af8c-ec53254d857c")
 	)
 	(junction
+		(at 232.41 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16e6f740-c1a5-4c55-90ab-27512b52c535")
+	)
+	(junction
 		(at 234.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3525,6 +3531,10 @@
 	(no_connect
 		(at 121.92 97.79)
 		(uuid "d4c650f1-40e9-4877-8f22-2da819403d50")
+	)
+	(no_connect
+		(at 99.06 48.26)
+		(uuid "ffd8d42c-1e92-4cba-889a-a94d0997beeb")
 	)
 	(wire
 		(pts
@@ -4446,7 +4456,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 31.75 35.56 0)
+		(at 31.75 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4455,7 +4465,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cb85883-76fe-4eb2-a43c-4e534d8176f3")
 		(property "Reference" "#PWR063"
-			(at 31.75 39.37 0)
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4474,7 @@
 			)
 		)
 		(property "Value" "SWIO"
-			(at 31.75 30.48 0)
+			(at 31.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 35.56 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 35.56 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 35.56 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,73 +4714,6 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 99.06 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a98b46b-5742-4537-af1d-d2679597da82")
-		(property "Reference" "#PWR030"
-			(at 95.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Rx"
-			(at 102.87 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 99.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35d45346-518c-4b51-bacd-89348980062c")
-		)
-		(instances
-			(project "DualSlopeADC"
-				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6013,72 +5956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 31.75 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ce6581b-fc28-4628-990d-ff3afb9333f1")
-		(property "Reference" "#PWR025"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Rx"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c99c8eb-eb96-49ea-9974-a6096b82b458")
-		)
-		(instances
-			(project "DualSlopeADC"
-				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 66.04 128.27 0)
 		(unit 1)
@@ -6850,6 +6727,71 @@
 			(project "DualSlopeADC"
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 31.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e4181cc-f6e6-47d9-9976-2c853a77b969")
+		(property "Reference" "#PWR030"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "out_int"
+			(at 27.432 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac97106-b9e8-4868-b05b-beab59eb40bb")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8601,6 +8543,71 @@
 			(project ""
 				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 232.41 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5633c6-b232-4296-8a07-151eee0318b6")
+		(property "Reference" "#PWR025"
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "out_int"
+			(at 228.092 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f44669d-99ad-4168-aa06-a96ea09c16f8")
+		)
+		(instances
+			(project "DualSlopeADC"
+				(path "/283011ff-11cf-4a24-84b5-14acf4ed13a0"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
